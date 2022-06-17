@@ -2,7 +2,7 @@ aside, footer, nav {
     border-top: 1px gray solid;
 }
 
-body {
+.body {
     background-color: rgb(146, 211, 211);
     font-size: 19px;
     font-weight: normal;
@@ -11,12 +11,21 @@ body {
     font-family:cursive;
     font-family: Georgia, serif;
     border: firebrick;
+    overflow: auto;
 }
 .certertitulo {
     text-align: center;
-    color:blue
+    color:blue;
+    overflow: auto;
+}
 
-  }
+.paragrafodesc {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+
+}
+
   
   .header {
     font-size: 20px;
@@ -27,20 +36,24 @@ body {
   
   h1 {
     text-align: center; 
-    
-  }
+    }
 
 
-  h1, h2, h3 {
+  h2, h3 {
     margin-bottom: central;
     margin-top: 30px;
+    color: rgb(3, 3, 233);
+    text-align: center;
   }
   
   img {
     display: block;
     max-width: 100%;
-    width: 320px;
-    min-height: 205px;
+    width: 500px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
   
   nav {
