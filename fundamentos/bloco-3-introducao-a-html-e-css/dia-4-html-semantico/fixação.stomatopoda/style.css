@@ -12,11 +12,15 @@ body {
     font-family: Georgia, serif;
 
 }
+.primeiroinblock {
+    display: inline-block;
+}
+
 
 .certertitulo {
     text-align: center;
     color:blue;
-    overflow: auto;
+    
 }
 
 .styletable {
@@ -24,42 +28,65 @@ body {
         background: rgb(196, 230, 219); 
         border-color: rgb(239, 239, 245); 
         border-style: solid; 
+        margin-left: 30%;
+        
 }
-
-.paragrafodesc {
-    width: 70%;
-    height: 500px;
-    text-align: justify
-
-    
-}
-
 aside {
     border: 70px;
     top: 210px; 
-    position: fixed;
+   position: absolute;
     width: 20%;
     height: 100%;
-    right: 0;
+    right: 0;}
+
+
+
+.paragrafodesc{
+    width: 100%;
+    height: 750px;
+    text-align: justify;
+
     
 }
 
+
+    
+
 #curiodadeshead {
     border: 3px solid rgb(255, 251, 0);
-    padding: 1em 30px;
+    padding: 1em 50px;
 }
 
 #curiodadesbody {
 border: 3px solid blue ;
-padding: 30px;
+padding: 10px;
+margin-right: 0;
 }
+
+#listaa{
+    border:3px solid red;
+    width: 65%;
+    display: inline-block;
+    margin: px;
+    padding: 10px;}
+
+    #listab{
+        border:3px solid red;
+        width: 25%;
+        display: inline-block;
+        margin: 10px;
+        margin-right: 0;
+        padding: 10px;}   
+
+
 
 .lista {
 border:3px solid red;
-width: 30%;
+width: 31%;
 display: inline-block;
-margin: 10px;
-padding: 10;
+margin-right: 0 px;
+padding: 0px;
+
 }
   .header {
     font-size: 20px;
@@ -68,6 +95,10 @@ padding: 10;
     text-align: center;
   }
   
+  #descri.classif {
+      display: inline-block;
+      margin-top: auto;
+  }
   h1 {
     margin-botton: 30px;
     margin-top: 30px;
@@ -77,22 +108,27 @@ padding: 10;
 
   h2  {
     color: rgb(3, 3, 233);
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    margin-left: 40%;
     margin-top: auto;
   }
-   h3 {color: rgb(3, 3, 233);
-   width: 65%;
-   text-align: center;
+   h3 {
+   color: rgb(3, 3, 233);
+   width: 50%;
+   margin-left: 40%;
+   margin-top: auto;
    }
-
-  img {
+ h4 {
+    text-align: center
+ }
+  
+ img {
     display: block;
-    max-width: 100%;
-    width: 500px;
-    min-height: 300px;
+    max-width: 75%;
+    width: auto;
+    
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     
   }
   
@@ -119,11 +155,7 @@ padding: 10;
     text-decoration: none;
   }
   
-  table, th, td {
-    border: solid 1px 10 rgb(19, 17, 17);
-    
-  }
   
-  table {
-    width: 50px;
-  }
+
+  
+  
