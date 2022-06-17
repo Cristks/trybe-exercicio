@@ -10,21 +10,41 @@ aside, footer, nav {
     line-height: 33px;
     font-family:cursive;
     font-family: Georgia, serif;
-    border: firebrick;
-    overflow: auto;
+
 }
+
 .certertitulo {
     text-align: center;
     color:blue;
     overflow: auto;
 }
 
+.styletable {
+    
+        background: rgb(196, 230, 219); 
+        border-color: rgb(239, 239, 245); 
+        border-style: solid; 
+}
+
 .paragrafodesc {
     width: 70%;
-    height: 300px;
-    overflow: auto;
+    height: 500px;
+    text-align: justify
 
+    
 }
+
+aside {
+    border: 70px;
+    top: 210px; 
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    right: 0;
+    
+}
+
+
 
   
   .header {
@@ -35,17 +55,23 @@ aside, footer, nav {
   }
   
   h1 {
-    text-align: center; 
+    margin-botton: 30px;
+    margin-top: 30px;
+    
     }
 
 
-  h2, h3 {
-    margin-bottom: central;
-    margin-top: 30px;
+  h2  {
     color: rgb(3, 3, 233);
+    width: 100%;
     text-align: center;
+    margin-top: auto;
   }
-  
+   h3 {color: rgb(3, 3, 233);
+   width: 65%;
+   text-align: center;
+   }
+
   img {
     display: block;
     max-width: 100%;
@@ -80,10 +106,10 @@ aside, footer, nav {
   }
   
   table, th, td {
-    border: 1px solid #ddd;
-    border-collapse: collapse;
+    border: solid 1px 10 rgb(19, 17, 17);
+    
   }
   
   table {
-    width: 100%;
+    width: 50px;
   }
