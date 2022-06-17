@@ -3,19 +3,22 @@ aside, footer, nav {
 }
 
 body {
-    background-color: rgb(146, 211, 211);
-    font-size: 19px;
+    background-color: rgb(237, 238, 243);
+     
+    background-size: cover;
     font-weight: normal;
     letter-spacing: .1px;
     line-height: 33px;
     font-family:cursive;
     font-family: Georgia, serif;
-
 }
 .primeiroinblock {
     display: inline-block;
 }
 
+#inicio
+#sobre
+#contatos
 
 .certertitulo {
     text-align: center;
@@ -100,8 +103,10 @@ padding: 0px;
       margin-top: auto;
   }
   h1 {
-    margin-botton: 30px;
+    margin-bottom: 30px;
     margin-top: 30px;
+    color: rgb(3, 3, 233);
+    text-align: center;
     
     }
 
@@ -119,7 +124,7 @@ padding: 0px;
    margin-top: auto;
    }
  h4 {
-    text-align: center
+    text-align: center;
  }
   
  img {
