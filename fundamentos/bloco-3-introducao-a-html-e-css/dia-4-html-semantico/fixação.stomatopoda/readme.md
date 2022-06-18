@@ -1,0 +1,1 @@
+Com muitos comandos a melhorar, tentei fazer o exercício com todos itens pedidos.

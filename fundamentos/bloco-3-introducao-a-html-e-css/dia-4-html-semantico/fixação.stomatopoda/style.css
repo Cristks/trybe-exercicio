@@ -1,37 +1,41 @@
 aside, footer, nav {
-    border-top: 1px gray solid;
+    border-top: 1px #f1f0e8 solid;
+    
 }
 
 body {
-    background-color: rgb(237, 238, 243);
-     
+    background-color: rgb(208, 212, 235);
+    color: black;
     background-size: cover;
     font-weight: normal;
     letter-spacing: .1px;
     line-height: 33px;
-    font-family:cursive;
+    
     font-family: Georgia, serif;
 }
 .primeiroinblock {
     display: inline-block;
 }
 
-#inicio
+#inicios
 #sobre
 #contatos
 
 .certertitulo {
     text-align: center;
-    color:blue;
+    color:rgb(2, 2, 61);
     
 }
 
 .styletable {
     
-        background: rgb(196, 230, 219); 
+        background: rgb(123, 151, 230); 
         border-color: rgb(239, 239, 245); 
         border-style: solid; 
-        margin-left: 30%;
+        margin-left: 40%;
+        margin-right: 30%;
+         width: 260;
+         
         
 }
 aside {
@@ -40,7 +44,9 @@ aside {
    position: absolute;
     width: 20%;
     height: 100%;
-    right: 0;}
+    right: 5;
+
+}
 
 
 
@@ -56,25 +62,26 @@ aside {
     
 
 #curiodadeshead {
-    border: 3px solid rgb(255, 251, 0);
+    /*border: 3px solid rgb(255, 251, 0);*/
     padding: 1em 50px;
+    text-align: 60%;
 }
 
-#curiodadesbody {
-border: 3px solid blue ;
+#curiodadesbody { 
 padding: 10px;
-margin-right: 0;
+margin-right: center;
 }
 
 #listaa{
-    border:3px solid red;
+    
     width: 65%;
     display: inline-block;
     margin: px;
     padding: 10px;}
 
     #listab{
-        border:3px solid red;
+    
+        /*border:3px solid red;*/
         width: 25%;
         display: inline-block;
         margin: 10px;
@@ -84,7 +91,8 @@ margin-right: 0;
 
 
 .lista {
-border:3px solid red;
+/*border:3px solid red;*/
+
 width: 31%;
 display: inline-block;
 margin-right: 0 px;
@@ -102,44 +110,58 @@ padding: 0px;
       display: inline-block;
       margin-top: auto;
   }
+
+
   h1 {
     margin-bottom: 30px;
     margin-top: 30px;
     color: rgb(3, 3, 233);
-    text-align: center;
-    
+    text-align: center;  
     }
+P  , li {
+    color: rgb(1, 1, 7);
+}
 
-
+tb , tr {
+  color: #010e0a;
+}
+  ul {
+    color: darkred;
+}
   h2  {
     color: rgb(3, 3, 233);
-    width: 70%;
+    width: 60%;
     margin-left: 40%;
     margin-top: auto;
   }
    h3 {
    color: rgb(3, 3, 233);
-   width: 50%;
-   margin-left: 40%;
+   width: 60%;
+   margin-left: auto;
    margin-top: auto;
    }
  h4 {
     text-align: center;
+    color: rgb(3, 3, 233);
  }
   
  img {
     display: block;
     max-width: 75%;
-    width: auto;
+
     
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    border-radius: 25%; 
+
+
     
   }
   
   nav {
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px gray solid;
+    border-bottom: 1px #ece4e4 solid;
+
   }
   
   nav ul {
@@ -153,11 +175,13 @@ padding: 0px;
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: chartreuse;
   }
   
   nav ul li a {
     padding: 5px 10px;
-    text-decoration: none;
+    
+    color: roxo;
   }
   
   
