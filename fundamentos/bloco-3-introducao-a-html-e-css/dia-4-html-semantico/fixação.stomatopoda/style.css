@@ -30,21 +30,25 @@ body {
     
         background: rgb(123, 151, 230); 
         border-color: rgb(239, 239, 245); 
-        border-style: solid; 
-        margin-left: 40%;
-        margin-right: 30%;
-         width: 260;
+        border-style: solid;
+        margin-left: 100%;
+        text-align: justify;
+        
+        width: 300px;
+       
          
         
 }
 aside {
     border: 70px;
+    margin-left: 1400px;
     top: 210px; 
    position: absolute;
-    width: 90%;
-    height: 100%;
-    right: 5;
-  display: inline-block
+    width:90px;
+    padding: auto;
+    
+  
+  
 }
 
 
@@ -65,15 +69,30 @@ aside {
     padding: 1em 50px;
     text-align: 60%;
 }
+#bodycuriosidades {
+  border:3px solid rgb(194, 193, 147);
+  
+  width: 100%;
+  text-align: justify;
+}
 
 
-
-#listaa{
+#listaa {
     
     width: 65%;
     display: inline-block;
     margin: px;
-    padding: 10px;}
+    padding: 10px;
+  }
+
+    #listac {
+      width: 100%;
+    display: inline-block;
+    margin: px;
+    padding: 10px
+    border: 3px solid rgb(255, 251, 0);
+
+    }   
 
     #listab{
     
@@ -82,7 +101,7 @@ aside {
         display: inline-block;
         margin: 10px;
         margin-right: 0;
-        margin-left: 40%;
+      margin-left: 40%;
         padding: 10px;}   
 
 
@@ -90,7 +109,8 @@ aside {
 .lista {
 border:3px solid rgb(255, 115, 0);
 display: inline-block;
-width: 30%;
+width: 33%;
+
 
 
 }
@@ -161,7 +181,7 @@ tb , tr {
   
   nav ul {
     display: flex;
-    justify-content: flex-start;
+    
     margin: 0;
     padding: 0;
   }
@@ -170,7 +190,7 @@ tb , tr {
     list-style-type: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: chartreuse;
+    
   }
   
   nav ul li a {
