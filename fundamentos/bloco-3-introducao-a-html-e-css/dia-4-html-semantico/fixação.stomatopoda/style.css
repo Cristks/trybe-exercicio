@@ -31,21 +31,25 @@ body {
         background: rgb(123, 151, 230); 
         border-color: rgb(239, 239, 245); 
         border-style: solid;
-        margin-left: 100%;
+        
         text-align: justify;
-        
-        width: 300px;
-       
-         
-        
-}
+        width: 200px;
+        margin-right: 10px;
+        }
+
+  main {
+   
+    padding: auto;
+    margin-right: 20%;
+  }      
 aside {
     border: 70px;
-    margin-left: 1400px;
+    margin-left: 70%;
     top: 210px; 
    position: absolute;
-    width:90px;
-    padding: auto;
+    width: 100px;
+    
+    
     
   
   
@@ -88,29 +92,31 @@ aside {
     #listac {
       width: 100%;
     display: inline-block;
-    margin: px;
-    padding: 10px
-    border: 3px solid rgb(255, 251, 0);
-
+    /*border: 3px solid rgb(255, 251, 0);*/
+    
     }   
 
     #listab{
     
         /*border:3px solid red;*/
-        width: 25%;
+        width: 30%;
         display: inline-block;
         margin: 10px;
         margin-right: 0;
-      margin-left: 40%;
-        padding: 10px;}   
+        margin-left: 40%;
+        padding: 10px;
+      }   
 
 
 
 .lista {
-border:3px solid rgb(255, 115, 0);
+/*border:3px solid rgb(255, 115, 0);*/
 display: inline-block;
-width: 33%;
-
+width: 30%;
+margin: 10px;
+        margin-right: 0;
+      
+        padding: 10px;
 
 
 }
@@ -124,6 +130,7 @@ width: 33%;
   #descri.classif {
       display: inline-block;
       margin-top: auto;
+      width: 100%;
   }
 
 
@@ -153,13 +160,27 @@ tb , tr {
    color: rgb(3, 3, 233);
    width: 60%;
    margin-left: auto;
-   margin-top: auto;
+   
+    
+   
+
    }
  h4 {
-    text-align: center;
-    color: rgb(3, 3, 233);
+  color: rgb(3, 3, 233);
+  width: 60%;
+  margin-left: auto;
+  
+    
  }
   
+ h5 {
+
+color: rgb(3, 3, 233);
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: justify;
+ }
  img {
     display: block;
     max-width: 75%;
