@@ -6,7 +6,7 @@ result += numbers [index];
 }
 
 result = result /numbers.length
-
+//maior que 20//
 if (result > 20) {
    console.log ('Valor maior que 20'); 
 } else {
