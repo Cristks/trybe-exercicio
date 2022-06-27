@@ -1,13 +1,27 @@
-//Adição (a + b)
-//Subtração (a - b)
-//Multiplicação (a * b)
-//Divisão (a / b)
-//Módulo (a % b)
+let leitor = {
+    nome: 'Julia',
+    sobrenome: 'Pessoa',
+    idade: 21,
+    livrosFavoritos: [
+      {
+        titulo: 'O Pior Dia de Todos',
+        autor: 'Daniela Kopsch',
+        editora: 'Tordesilhas',
+      },
+        
+    ],
+  };
+  console.log(`O livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama ${leitor.livrosFavoritos[0].titulo}"`);
 
-const a = 10;
-const b = 5;
+  leitor.livrosFavoritos.push( 
+    {
+    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+        autor: 'JK Rowling',
+        editor: 'Rocco',
+  },
+  );
+  console.log(leitor.livrosFavoritos);
 
-function soma(a, b) {
-return a + b;
-}
+console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos.');
+
 
