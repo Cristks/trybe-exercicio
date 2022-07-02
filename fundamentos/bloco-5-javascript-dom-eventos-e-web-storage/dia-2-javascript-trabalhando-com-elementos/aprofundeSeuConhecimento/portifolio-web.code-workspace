@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Documentos/portifolio-web"
+		},
+		{
+			"path": "../../../../../../Projetos"
+		},
+		{
+			"path": "../../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "trybe-exercicios"
+	}
+}
