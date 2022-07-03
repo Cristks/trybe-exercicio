@@ -115,3 +115,41 @@ function displayHolidays() {
         let decemberFridays = [ 4, 11, 18, 25 ];
        displayFridays(decemberFridays);
 
+       function dayMouseOver() {
+        let days = document.querySelector('#days');
+        days.addEventListener('mouseover', function(event) {
+          event.target.style.fontSize = '30px';
+          event.target.style.fontWeight = '600'; // Ele pega o evento alvo e altera o estilo de fontWeight para 600
+        });
+      }
+      
+      function dayMouseOut() {
+        let days = document.querySelector('#days');
+        days.addEventListener('mouseout', function(event) {
+          event.target.style.fontSize = '20px';
+          event.target.style.fontWeight = '200'; // Ele pega o evento alvo e altera o estilo de fontWeight para 200
+        });
+      }
+      dayMouseOver();
+      dayMouseOut();
+
+      function newTaskSpan(task) {
+        let tasksContainer = document.querySelector('.my-tasks');
+        let taskName = document.createElement('span');
+      
+        taskName.innerHTML = task;
+        tasksContainer.appendChild(taskName); // Anexando a task como filha de taskContainer
+      }
+      newTaskSpan('projeto');
+
+      function newTaskDiv(color) {
+
+        let tasksContainer = document.querySelector('.my-tasks');
+        let newTask = document.createElement('div');
+      
+        newTask.className = 'task';
+        newTask.style.backgroundColor = color;
+        tasksContainer.appendChild(newTask); // Adiciona newTask como filho de tasksContainer
+      }
+
+      newTaskDiv('green');
